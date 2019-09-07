@@ -1,0 +1,34 @@
+.category-menu-image {
+  background: #fff;
+  cursor: pointer;
+  .category-menu-image-box {
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+  }
+  .category-menu-image-container {
+    margin: 0 auto;
+    width: 80px;
+    height: 80px;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .category-menu-image-name {
+    margin: 8px 12px 0;
+    font-size: 14px;
+    color: #212121;
+    line-height: 18px;
+    height: 36px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-align: center;
+  }
+}
+
+.custom-skeleton ion-skeleton-text {
+  width: 80px;
+  height: 80px;
+}
